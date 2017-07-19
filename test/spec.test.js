@@ -11,8 +11,8 @@ describe('Module "car"', () => {
 		it('"color" that is a String', () => {
 			expect(car.color).toEqual(jasmine.any(String));
 		});
-		it('"dours" that is a Number', () => {
-			expect(car.dours).toEqual(jasmine.any(Number));
+		it('"doors" that is a Number', () => {
+			expect(car.doors).toEqual(jasmine.any(Number));
 		});
 		it('"passengers" that is a Array', () => {
 			expect(car.passengers).toEqual(jasmine.any(Array));
@@ -44,8 +44,8 @@ describe('Module "car"', () => {
 		it('"color" equal "white"', () => {
 			expect(car.color).toEqual('white');
 		});
-		it('"dours" equal 4', () => {
-			expect(car.dours).toEqual(4);
+		it('"doors" equal 4', () => {
+			expect(car.doors).toEqual(4);
 		});
 		it('"passengers" that is empty', () => {
 			expect(car.passengers).toEqual([]);
@@ -64,7 +64,7 @@ describe('Module "car"', () => {
 		});
 	});
 
-	describe('pessangers', () => {
+	describe('passengers', () => {
 		afterEach(() => {
 			car.speed = 0;
 			car.seats = 8;
